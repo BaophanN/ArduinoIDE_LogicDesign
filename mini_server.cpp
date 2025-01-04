@@ -5,7 +5,8 @@
 #include <WiFi.h>
 #include <ArduinoJson.h>
 // Define your AP credentials
-
+const char* ssid = "ESP32_AP";
+const char* password = "12345678";
 
 void TaskBlink(void *pvParameters);
 void TaskTemperatureHumidity(void *pvParameters);

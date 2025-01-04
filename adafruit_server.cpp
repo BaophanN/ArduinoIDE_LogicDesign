@@ -7,7 +7,14 @@
 // Define your tasks here
 
 
+#define WIFI_SSID       "BaoIphone"
+#define WIFI_PASSWORD   "123456789"
+#define ADAFRUIT_IO_USERNAME  "khanhhuy2003"
+#define ADAFRUIT_IO_KEY       "aio_lvVc393MViJyeUidjiXK7ptohMmg"
 
+// Define MQTT server and port for Adafruit IO
+#define MQTT_SERVER      "io.adafruit.com"
+#define MQTT_PORT        1883
 
 void TaskBlink(void *pvParameters);
 void TaskTemperatureHumidity(void *pvParameters);
